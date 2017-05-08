@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "samples\Samples.csproj", "{BD3B5AC6-A141-4DB3-B209-F2883273E648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.PowerShell", "src\System.Web.PowerShell\System.Web.PowerShell.csproj", "{3ECC0BB3-DBB6-4CFB-BB4C-476F652C283D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs06.codeplex.com/
+		SccProjectUniqueName0 = samples\\Samples.csproj
+		SccProjectName0 = samples
+		SccLocalPath0 = samples
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = src\\System.Web.PowerShell\\System.Web.PowerShell.csproj
+		SccProjectName2 = src/System.Web.PowerShell
+		SccLocalPath2 = src\\System.Web.PowerShell
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3B5AC6-A141-4DB3-B209-F2883273E648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3B5AC6-A141-4DB3-B209-F2883273E648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3B5AC6-A141-4DB3-B209-F2883273E648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3B5AC6-A141-4DB3-B209-F2883273E648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECC0BB3-DBB6-4CFB-BB4C-476F652C283D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECC0BB3-DBB6-4CFB-BB4C-476F652C283D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECC0BB3-DBB6-4CFB-BB4C-476F652C283D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECC0BB3-DBB6-4CFB-BB4C-476F652C283D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

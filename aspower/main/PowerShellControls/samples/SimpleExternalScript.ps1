@@ -1,0 +1,1 @@
+﻿$Response.Write("<h1>hello world from an external script</h1>")

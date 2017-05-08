@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIM.PowerShell", "src\FIM.PowerShell\FIM.PowerShell.csproj", "{72CEC602-AC93-455C-9C57-21B21340153A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{0D22A1F5-518F-4351-A0EC-A541F7ED1386}"
+	ProjectSection(SolutionItems) = preProject
+		FIM.PowerShell.ps1 = FIM.PowerShell.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADMA", "ADMA", "{6D79A344-24A8-437E-A162-6952F43D5982}"
+	ProjectSection(SolutionItems) = preProject
+		samples\ADMA\Deprovision.ps1 = samples\ADMA\Deprovision.ps1
+		samples\ADMA\FilterForDisconnection.ps1 = samples\ADMA\FilterForDisconnection.ps1
+		samples\ADMA\MapAttributesForExport.ps1 = samples\ADMA\MapAttributesForExport.ps1
+		samples\ADMA\MapAttributesForImport.ps1 = samples\ADMA\MapAttributesForImport.ps1
+		samples\ADMA\Provision.ps1 = samples\ADMA\Provision.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIM.PowerShell.Workflow.Activities", "src\FIM.PowerShell.Workflow.Activities\FIM.PowerShell.Workflow.Activities.csproj", "{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module", "Module", "{91DCE2B4-07EE-464E-BDCA-1AC71A62C735}"
+	ProjectSection(SolutionItems) = preProject
+		FIM.psm1 = FIM.psm1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs06
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\FIM.PowerShell\\FIM.PowerShell.csproj
+		SccProjectName1 = src/FIM.PowerShell
+		SccLocalPath1 = src\\FIM.PowerShell
+		SccProjectUniqueName2 = src\\FIM.PowerShell.Workflow.Activities\\FIM.PowerShell.Workflow.Activities.csproj
+		SccProjectName2 = src/FIM.PowerShell.Workflow.Activities
+		SccLocalPath2 = src\\FIM.PowerShell.Workflow.Activities
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D79A344-24A8-437E-A162-6952F43D5982} = {0D22A1F5-518F-4351-A0EC-A541F7ED1386}
+	EndGlobalSection
+EndGlobal

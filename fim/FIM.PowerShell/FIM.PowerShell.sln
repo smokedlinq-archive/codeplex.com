@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIM.PowerShell", "src\FIM.PowerShell\FIM.PowerShell.csproj", "{72CEC602-AC93-455C-9C57-21B21340153A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0D22A1F5-518F-4351-A0EC-A541F7ED1386}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\FIM.PowerShell.ps1 = scripts\FIM.PowerShell.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIM.PowerShell.Workflow.Activities", "src\FIM.PowerShell.Workflow.Activities\FIM.PowerShell.Workflow.Activities.csproj", "{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module", "Module", "{91DCE2B4-07EE-464E-BDCA-1AC71A62C735}"
+	ProjectSection(SolutionItems) = preProject
+		FIM.psm1 = FIM.psm1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MASynchronization", "MASynchronization", "{517B36A5-8BF1-4236-BDA2-33DC70A14C52}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\MASynchronization\Deprovision.ps1 = scripts\MASynchronization\Deprovision.ps1
+		scripts\MASynchronization\FilterForDisconnection.ps1 = scripts\MASynchronization\FilterForDisconnection.ps1
+		scripts\MASynchronization\MapAttributesForExport.ps1 = scripts\MASynchronization\MapAttributesForExport.ps1
+		scripts\MASynchronization\MapAttributesForImport.ps1 = scripts\MASynchronization\MapAttributesForImport.ps1
+		scripts\MASynchronization\MapAttributesForJoin.ps1 = scripts\MASynchronization\MapAttributesForJoin.ps1
+		scripts\MASynchronization\ResolveJoinSearch.ps1 = scripts\MASynchronization\ResolveJoinSearch.ps1
+		scripts\MASynchronization\ShouldProjectToMV.ps1 = scripts\MASynchronization\ShouldProjectToMV.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVSynchronization", "MVSynchronization", "{A01B4A8C-8F1B-40BD-A603-7143CFCFFDC8}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\MVSynchronization\Provision.ps1 = scripts\MVSynchronization\Provision.ps1
+		scripts\MVSynchronization\ShouldDeleteFromMV.ps1 = scripts\MVSynchronization\ShouldDeleteFromMV.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{575B3B23-50FC-4EA3-9686-9629D730944E}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Microsoft.MetadirectoryServicesEx.dll = lib\Microsoft.MetadirectoryServicesEx.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs06
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\FIM.PowerShell\\FIM.PowerShell.csproj
+		SccProjectName1 = src/FIM.PowerShell
+		SccLocalPath1 = src\\FIM.PowerShell
+		SccProjectUniqueName2 = src\\FIM.PowerShell.Workflow.Activities\\FIM.PowerShell.Workflow.Activities.csproj
+		SccProjectName2 = src/FIM.PowerShell.Workflow.Activities
+		SccLocalPath2 = src\\FIM.PowerShell.Workflow.Activities
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CEC602-AC93-455C-9C57-21B21340153A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1FF1DA-E1D5-46BE-A27A-940754CA67A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{517B36A5-8BF1-4236-BDA2-33DC70A14C52} = {0D22A1F5-518F-4351-A0EC-A541F7ED1386}
+		{A01B4A8C-8F1B-40BD-A603-7143CFCFFDC8} = {0D22A1F5-518F-4351-A0EC-A541F7ED1386}
+	EndGlobalSection
+EndGlobal

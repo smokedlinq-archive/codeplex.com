@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFS.PowerShell.AttributeStore", "ADFS.PowerShell.AttributeStore\ADFS.PowerShell.AttributeStore.csproj", "{4D342D32-EBD9-47A8-9179-1EBF71B6A939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{57995874-D8D0-4145-8A74-B4B8EEA6AE0E}"
+	ProjectSection(SolutionItems) = preProject
+		References\Microsoft.IdentityServer.ClaimsPolicy.dll = References\Microsoft.IdentityServer.ClaimsPolicy.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs06
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ADFS.PowerShell.AttributeStore\\ADFS.PowerShell.AttributeStore.csproj
+		SccProjectName1 = ADFS.PowerShell.AttributeStore
+		SccLocalPath1 = ADFS.PowerShell.AttributeStore
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D342D32-EBD9-47A8-9179-1EBF71B6A939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D342D32-EBD9-47A8-9179-1EBF71B6A939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D342D32-EBD9-47A8-9179-1EBF71B6A939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D342D32-EBD9-47A8-9179-1EBF71B6A939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
